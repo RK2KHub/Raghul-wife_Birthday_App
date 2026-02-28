@@ -65,6 +65,7 @@ Create a high-end wedding invitation card image in a modern “Netflix-style” 
 - “Chettinad Wedding Celebration”
 Use soft lighting, mild glow, premium shadows, and a balanced composition suitable for an invitation card. Output as a single image, 1400x900.
 
+<<<<<<< HEAD
 
 
 ---
@@ -101,3 +102,5 @@ https://rk2khub.github.io/Raghul-wife_Birthday_App/
 ## Deploy to GitHub Pages (Option B: GitHub Actions)
 This repo includes `.github/workflows/deploy.yml`.
 Enable repo → Settings → Pages → Source: GitHub Actions.
+=======
+>>>>>>> 24f0e457c930c1f15c2057b37169075106697bba

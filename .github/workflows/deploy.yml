@@ -18,12 +18,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24f0e457c930c1f15c2057b37169075106697bba
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
+<<<<<<< HEAD
       - run: npm ci
       - run: npm run build
+=======
+
+      - run: npm ci
+      - run: npm run build
+
+>>>>>>> 24f0e457c930c1f15c2057b37169075106697bba
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -36,4 +47,8 @@ jobs:
     needs: build
     steps:
       - id: deployment
+<<<<<<< HEAD
         uses: actions/deploy-pages@v4
+=======
+        uses: actions/deploy-pages@v4
+>>>>>>> 24f0e457c930c1f15c2057b37169075106697bba
